@@ -11,6 +11,7 @@
 
 UInt8 joystick_x, joystick_y;
 
+// Execute movement based off the joystick input
 UInt8 ExecuteJoystickInputTask()
 {
 	joystick_x = GetPortAnalog(JOYSTICK_X_AXIS);
