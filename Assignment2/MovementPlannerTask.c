@@ -2,7 +2,7 @@
 #include "MovementPlannerTask.h"
 #include "MovementDirection.h"
 #include "Patterns.h"
-
+//Ececuting movement based off the recognized pattern parameter.
 UInt8 ExecuteMovementPlannerTask(UInt8 recognized_pattern)
 {
 	switch(recognized_pattern)
