@@ -77,10 +77,6 @@ int main()
 		
 		ExecutePrintToLCDTask(movementDirection, recognizedPattern, ASCII_Buffer, LCD_Buffer, LCD_Buffer_Video);
 		
-	/*	if(plannedDirection == STOP_MOVING) {
-			break;
-		}
-		*/
 	}
 	
 	return 0;	
