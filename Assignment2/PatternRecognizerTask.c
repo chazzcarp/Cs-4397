@@ -5,7 +5,7 @@
 UInt8 i, recognizedPatternCount;
 Form recognizedPatterns[MAX_OF_FORM];
 
-// Recognize patterns 
+// Recognize patterns and return the patterns
 UInt8 ExecutePatternRecognizerTask(UInt8* rgbFrame)
 {
 	GrabRGBFrame();
