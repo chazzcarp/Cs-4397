@@ -4,6 +4,7 @@
 #include "PrintToLCDTask.h"
 #include "PrintLib.h"
 
+// Prints the text to the screen
 void ExecutePrintToLCDTask(int movement_direction, int recognized_pattern, UInt8* ASCII_Buffer, UInt8* LCD_Buffer, GraphicBuffer LCD_Video_Buffer)
 {
 	switch(movement_direction)
